@@ -1,0 +1,127 @@
+.left {
+    margin-left: 400px;
+    border-radius: 3px;
+}
+
+.star {
+    position: relative;
+    top: 30px;
+    height: 64px;
+    width: 64px;
+    left: 30px;
+}
+
+
+.heading {
+    font-weight: 700;
+    font-size: large;
+    font-weight: bold;
+    line-height: 64px;
+}
+
+.headingMain {
+
+    margin-top: 1000px;
+    position: relative;
+    top: 140px;
+    left: 100px;
+}
+
+.getstarted {
+    background-color: black;
+    color: whitesmoke;
+    padding: 6px;
+}
+
+.btnwatch {
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+/* .phoneimages {
+
+    height: 100%;
+
+} */
+
+.premiumPart {
+    content: "";
+    position: relative;
+    background: url('/images/Ellipse\ 1\ \(2\).png');
+    /* background: 10px 10px 8px 10px rgba(255, 85, 85, 1); */
+    /* box-shadow: 10px 10px 8px 10px rgba(255, 85, 85, 1); */
+
+    /* background-repeat: no-repeat; */
+    top: 1200px;
+    height: 100px;
+    width: 100px;
+    z-index: -1;
+    opacity: .7;
+}
+
+.phasetwo {
+    position: relative;
+    top: -104px;
+    right: 35px;
+}
+
+.leftContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.iconsAdvan {
+    background-color: red;
+    border-radius: 22px;
+    padding: 3px 7px;
+
+}
+
+.square {
+    height: 10px;
+    width: 10px;
+    position: static;
+    box-shadow: rgb(255, 85, 85, 1) 146px 153px 68px 81px;
+
+}
+
+.circle1 {
+    border-radius: 70%;
+    margin-left: 56px;
+    border: 1px solid black;
+    height: 551px;
+    width: 381px;
+    transform: rotate(-45deg);
+    position: absolute;
+    /* z-index: -1; */
+
+}
+
+.circle2 {
+    border-radius: 70%;
+    margin-left: 24px;
+    border: 1px solid black;
+    height: 551px;
+    width: 381px;
+    transform: rotate(-45deg);
+    position: absolute;
+
+}
+
+.circle3 {
+    border-radius: 70%;
+    margin-left: -3px;
+    border: 1px solid black;
+    height: 551px;
+    width: 381px;
+    transform: rotate(-45deg);
+    position: absolute;
+    z-index: 0.3;
+
+}
